@@ -1,0 +1,72 @@
+html {
+    background: #1d1d1d;
+    background: linear-gradient(120deg, #1d1d1d, #31283a) fixed;
+  }
+  
+  p {
+    line-height: 24px;
+    margin: 15px 0 10px;
+  }
+  
+  a,
+  a:visited,
+  a:hover,
+  a:active,
+  a:focus {
+    color: hsl(270, 100%, 85%);
+  }
+  
+  code,
+  pre {
+    background: hsl(270, 100%, 95%);
+    color: hsl(270, 100%, 30%);
+  }
+  
+  hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  }
+  
+  header {
+    margin: auto;
+    max-width: 600px;
+    padding-top: 40px;
+  }
+  
+  h1 {
+    font-size: 1.7rem;
+    letter-spacing: 4px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1rem;
+    line-height: 1.2;
+    padding: 18px 0;
+    text-align: center;
+  }
+  
+  main {
+    margin: auto;
+    max-width: 600px;
+    padding-bottom: 80px;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    padding: 30px 0 10px;
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 570px) {
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.6rem;
+    }
+  }
